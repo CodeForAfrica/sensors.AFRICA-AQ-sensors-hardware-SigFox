@@ -12532,6 +12532,11 @@ by exp-lbrs-replace2.ulp</description>
 <wire x1="306.578" y1="148.844" x2="306.578" y2="171.45" width="0.1524" layer="95"/>
 <text x="306.578" y="141.986" size="1.778" layer="95">WSSFM10R H/W Design Guide</text>
 <text x="310.134" y="145.288" size="1.778" layer="95">Recommended by Wisol</text>
+<wire x1="377.698" y1="255.27" x2="377.698" y2="88.646" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="377.698" y1="88.646" x2="250.698" y2="88.646" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="250.698" y1="88.646" x2="250.698" y2="255.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="250.698" y1="255.27" x2="377.698" y2="255.27" width="0.1524" layer="94" style="shortdash"/>
+<text x="303.276" y="252.476" size="1.778" layer="94">SIGFOX CIRCUIT</text>
 </plain>
 <instances>
 <instance part="MICRO_USB" gate="G$1" x="12.7" y="25.4" smashed="yes" rot="R180">
