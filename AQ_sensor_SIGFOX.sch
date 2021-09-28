@@ -12427,8 +12427,6 @@ by exp-lbrs-replace2.ulp</description>
 <part name="H3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="H4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
@@ -12467,6 +12465,8 @@ by exp-lbrs-replace2.ulp</description>
 <part name="RX_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="RADIO_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12524,7 +12524,7 @@ by exp-lbrs-replace2.ulp</description>
 <wire x1="327.66" y1="176.784" x2="342.392" y2="176.784" width="0.1524" layer="95"/>
 <wire x1="342.392" y1="176.784" x2="342.392" y2="201.422" width="0.1524" layer="95"/>
 <wire x1="342.392" y1="201.422" x2="327.66" y2="201.422" width="0.1524" layer="95"/>
-<text x="347.472" y="191.262" size="1.778" layer="95">Recommended by Wisol</text>
+<text x="344.932" y="191.262" size="1.778" layer="95">Recommended by Wisol</text>
 <text x="343.154" y="188.214" size="1.778" layer="95">WSSFM10R H/W Design Guide</text>
 <wire x1="306.578" y1="171.45" x2="337.566" y2="171.45" width="0.1524" layer="95"/>
 <wire x1="337.566" y1="171.45" x2="337.566" y2="148.844" width="0.1524" layer="95"/>
@@ -12536,7 +12536,7 @@ by exp-lbrs-replace2.ulp</description>
 <wire x1="377.698" y1="88.646" x2="250.698" y2="88.646" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="250.698" y1="88.646" x2="250.698" y2="255.27" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="250.698" y1="255.27" x2="377.698" y2="255.27" width="0.1524" layer="94" style="shortdash"/>
-<text x="303.276" y="252.476" size="1.778" layer="94">SIGFOX CIRCUIT</text>
+<text x="300.736" y="252.476" size="1.778" layer="94">SIGFOX CIRCUIT</text>
 </plain>
 <instances>
 <instance part="MICRO_USB" gate="G$1" x="12.7" y="25.4" smashed="yes" rot="R180">
@@ -12679,12 +12679,6 @@ by exp-lbrs-replace2.ulp</description>
 <instance part="GND61" gate="1" x="26.924" y="105.41" smashed="yes">
 <attribute name="VALUE" x="24.384" y="102.87" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="1" x="107.696" y="160.782" smashed="yes" rot="R180">
-<attribute name="VALUE" x="110.236" y="165.862" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+13" gate="1" x="77.216" y="157.226" smashed="yes" rot="R180">
-<attribute name="VALUE" x="79.756" y="162.306" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND13" gate="1" x="136.398" y="237.998" smashed="yes" rot="R270">
 <attribute name="VALUE" x="133.858" y="240.538" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -12813,6 +12807,12 @@ by exp-lbrs-replace2.ulp</description>
 </instance>
 <instance part="GND35" gate="1" x="298.958" y="112.522" smashed="yes" rot="R270">
 <attribute name="VALUE" x="296.418" y="115.062" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="77.216" y="156.718" smashed="yes" rot="R180">
+<attribute name="VALUE" x="79.756" y="161.798" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="107.696" y="160.274" smashed="yes" rot="R180">
+<attribute name="VALUE" x="110.236" y="165.354" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -13047,17 +13047,6 @@ by exp-lbrs-replace2.ulp</description>
 <wire x1="51.816" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="55.88" y="22.86"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="105.156" y1="171.45" x2="107.696" y2="171.45" width="0.1524" layer="91"/>
-<wire x1="107.696" y1="171.45" x2="107.696" y2="163.322" width="0.1524" layer="91"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="77.216" y1="166.37" x2="77.216" y2="159.766" width="0.1524" layer="91"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
-</segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
@@ -13096,6 +13085,21 @@ by exp-lbrs-replace2.ulp</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="322.072" y1="168.148" x2="328.93" y2="168.148" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="77.216" y1="166.37" x2="77.216" y2="160.274" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="77.216" y1="160.274" x2="77.216" y2="159.766" width="0.1524" layer="91"/>
+<wire x1="77.216" y1="159.258" x2="77.216" y2="159.766" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="105.156" y1="171.45" x2="107.696" y2="171.45" width="0.1524" layer="91"/>
+<wire x1="107.696" y1="171.45" x2="107.696" y2="163.576" width="0.1524" layer="91"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="107.696" y1="163.576" x2="107.696" y2="163.322" width="0.1524" layer="91"/>
+<wire x1="107.696" y1="162.814" x2="107.696" y2="163.322" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DHT_OUT" class="0">
