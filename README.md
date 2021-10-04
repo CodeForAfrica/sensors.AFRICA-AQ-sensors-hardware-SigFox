@@ -1,4 +1,4 @@
-# sensors.AFRICA MRC AQ Kits Hardware
+# sensors.AFRICA SigFox AQ Kits Hardware
 
 
 ## Tools used
