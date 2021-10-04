@@ -1,4 +1,4 @@
-# sensors.AFRICA / MRC AQ sensors hardware
+# sensors.AFRICA / SigFox AQ sensors hardware
 
 This folder contains the Eagle design files for the sensors.AFRICA SigFox boards.
 
