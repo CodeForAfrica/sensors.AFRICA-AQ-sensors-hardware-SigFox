@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -185,7 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMDAzMTgyNzU5ODExNzY" folderUrn="urn:adsk.wipprod:fs.folder:co.JvkIyPCGSUOTXoHwebdYWw" urn="urn:adsk.wipprod:dm.lineage:lKNtYnu6R0Wf073pCdF1XA"  versionUrn="urn:adsk.wipprod:fs.file:vf.lKNtYnu6R0Wf073pCdF1XA?version=5" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="f7d3d892-1735-423b-440c-40111b257b6f"/>
+<fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMTEwMDU0NTIxNjk1MjY" folderUrn="urn:adsk.wipprod:fs.folder:co.dgCpAfyER96Zuqcgu0tqyw" urn="urn:adsk.wipprod:dm.lineage:U0wo6XjgT5K0S-mF1DSGnQ"  versionUrn="urn:adsk.wipprod:fs.file:vf.U0wo6XjgT5K0S-mF1DSGnQ?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="60c72a1a-1266-8ebc-7aaf-a876d39807dd"/>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -11098,7 +11098,7 @@ by exp-lbrs-replace2.ulp</description>
 <packageinstance name="5,5-PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="SIP-100-03-32" urn="urn:adsk.eagle:package:30300264/2" type="model" library_version="4">
+<package3d name="SIP-100-03-32" urn="urn:adsk.eagle:package:30300264/3" type="model" library_version="5">
 <description>&lt;b&gt;SIP Header&lt;/b&gt; - 0.1", 32 mil drill</description>
 <packageinstances>
 <packageinstance name="SIP-100-03-32"/>
@@ -11448,7 +11448,7 @@ by exp-lbrs-replace2.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="F-1X03-" urn="urn:adsk.eagle:component:30300315/2" prefix="J" library_version="4">
+<deviceset name="F-1X03-" urn="urn:adsk.eagle:component:30300315/3" prefix="J" library_version="5">
 <description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="F1X03" x="0" y="0"/>
@@ -11461,7 +11461,7 @@ by exp-lbrs-replace2.ulp</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30300264/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30300264/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -12398,7 +12398,7 @@ by exp-lbrs-replace2.ulp</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="53?-08" device="048" package3d_urn="urn:adsk.eagle:package:30300278/2"/>
-<part name="J1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="F-1X03-" device="SIP-100-32" package3d_urn="urn:adsk.eagle:package:30300264/2"/>
+<part name="J1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="F-1X03-" device="SIP-100-32" package3d_urn="urn:adsk.eagle:package:30300264/3"/>
 <part name="SV1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="FE15-1" device="" package3d_urn="urn:adsk.eagle:package:30300273/2"/>
 <part name="SV2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="FE15-1" device="" package3d_urn="urn:adsk.eagle:package:30300273/2"/>
 <part name="PMS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
@@ -12439,7 +12439,7 @@ by exp-lbrs-replace2.ulp</description>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100pF"/>
 <part name="L1" library="OPL_Inductor" deviceset="SMD-INDUCTOR-2.2UH-20%-1.2A(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004743/1" value="47NH"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0R"/>
-<part name="X3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30260301" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30260396/1"/>
+<part name="X3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30260301" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:30260396/1" value="50ohms"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12748,8 +12748,8 @@ by exp-lbrs-replace2.ulp</description>
 <instance part="GND26" gate="1" x="324.104" y="209.296" smashed="yes">
 <attribute name="VALUE" x="321.564" y="206.756" size="1.778" layer="96"/>
 </instance>
-<instance part="GND27" gate="1" x="322.834" y="199.39" smashed="yes" rot="R90">
-<attribute name="VALUE" x="325.374" y="196.85" size="1.778" layer="96" rot="R90"/>
+<instance part="GND27" gate="1" x="325.374" y="199.39" smashed="yes" rot="R90">
+<attribute name="VALUE" x="327.914" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND28" gate="1" x="321.31" y="191.008" smashed="yes">
 <attribute name="VALUE" x="318.77" y="188.468" size="1.778" layer="96"/>
@@ -13012,6 +13012,11 @@ by exp-lbrs-replace2.ulp</description>
 <pinref part="U$1" gate="G$1" pin="28"/>
 <wire x1="324.104" y1="211.836" x2="324.104" y2="214.63" width="0.1524" layer="91"/>
 <wire x1="324.104" y1="214.63" x2="320.548" y2="214.63" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="22"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="320.548" y1="199.39" x2="322.834" y2="199.39" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -13313,7 +13318,7 @@ by exp-lbrs-replace2.ulp</description>
 <label x="44.196" y="161.544" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="WISON_RST" class="0">
+<net name="WISOL_RST" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO9"/>
 <wire x1="292.608" y1="171.45" x2="292.608" y2="160.528" width="0.1524" layer="91"/>
@@ -13357,15 +13362,20 @@ by exp-lbrs-replace2.ulp</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,351.028,236.728,X1-1,S,,,,"/>
-<approved hash="101,1,351.028,234.188,X1-2,S,,,,"/>
-<approved hash="101,1,351.028,231.648,X1-3,S,,,,"/>
-<approved hash="101,1,351.028,224.028,X1-6,S,,,,"/>
+<approved hash="101,1,147.828,178.308,X1-1,S,,,,"/>
+<approved hash="101,1,147.828,175.768,X1-2,S,,,,"/>
+<approved hash="101,1,147.828,173.228,X1-3,S,,,,"/>
+<approved hash="101,1,147.828,165.608,X1-6,S,,,,"/>
 <approved hash="104,1,63.5,25.4,U3,IN,+5V,,,"/>
 <approved hash="104,1,88.9,25.4,U3,OUT,+3V3,,,"/>
 <approved hash="104,1,88.9,22.86,U3,TAB,+3V3,,,"/>
+<approved hash="104,1,363.728,227.33,X3,GND1,GND,,,"/>
+<approved hash="104,1,368.808,227.33,X3,GND2,GND,,,"/>
+<approved hash="104,1,363.728,212.09,X3,GND3,GND,,,"/>
+<approved hash="104,1,368.808,212.09,X3,GND4,GND,,,"/>
 <approved hash="106,1,20.32,22.86,D+,,,,,"/>
 <approved hash="106,1,20.32,20.32,D-,,,,,"/>
+<approved hash="106,1,292.608,171.45,WISOL_RST,,,,,"/>
 <approved hash="113,1,41.8677,165.39,SV1,,,,,"/>
 <approved hash="113,1,19.0077,165.39,SV2,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
